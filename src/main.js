@@ -11,11 +11,15 @@ import VueFullPage from 'vue-fullpage.js/dist/vue-fullpage'
 import 'fullpage.js/dist/fullpage.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min'
+import AmazeVue from 'amaze-vue';
+import 'amaze-vue/dist/amaze-vue.css';
+
 // 导入路由
 import router from './router'
 
 Vue.config.productionTip = false
 Vue.use(VueFullPage)
+Vue.use(AmazeVue);
 
 /* eslint-disable no-new */
 new Vue({

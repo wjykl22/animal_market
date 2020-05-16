@@ -24,7 +24,7 @@ const routers = [
 const router = new Router({
   //配置组件和路由的映射关系
   routers,
-  mode:'history'
+  mode: 'history'
 })
 
 export default router
