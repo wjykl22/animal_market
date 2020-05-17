@@ -5,11 +5,11 @@
       <div class="row foot-box">
         <div class="col-xs-6 foot-left">
           <div>
-            <span style="color: #B1B9BC;margin: 5px">CUSTOMER CENTER</span>
+            <span style="color: #B1B9BC;margin: 5px">{{$t('Footer.customer_center')}}</span>
           </div>
           <div id="div-line"></div>
           <div id="div-email">frewhite_service@hotmail.com</div>
-          <div id="div-time">Weekdays 9:00-18:00</div>
+          <div id="div-time">{{$t('Footer.weekdays')}} 9:00-18:00</div>
         </div>
         <div class="col-xs-6 foot-right text-right">
           <div id="div-icon">
@@ -21,7 +21,7 @@
           </div>
           <div>
             <ul>
-              <li>© 2019 FREWHITE all rights reserved</li>
+              <li>{{copyright}}</li>
             </ul>
 
           </div>
@@ -34,15 +34,17 @@
         <div class="row">
           <div class="col-md-6">
             <div>
-              <span style="color: #B1B9BC;margin: 5px">CUSTOMER CENTER</span>
+              <span style="color: #B1B9BC;margin: 5px">{{$t('Footer.customer_center')}}</span>
             </div>
             <div id="div-line-sm"></div>
             <div id="div-email-sm">frewhite_service@hotmail.com</div>
-            <div id="div-time-sm">Weekdays 9:00-18:00</div>
+            <div id="div-time-sm">{{$t('Footer.weekdays')}} 9:00-18:00</div>
           </div>
           <div class="col-md-6">
             <div id="div-icon-sm">
-              <img src="../assets/picture/ins.png">
+              <a href="https://www.instagram.com/frewhite_official/">
+                <img src="../assets/picture/ins.png">
+              </a>
               <img src="../assets/picture/facebook.png">
               <img src="../assets/picture/youtube.png">
             </div>
@@ -61,7 +63,13 @@
 
 <script>
     export default {
-        name: "Footer"
+        name: "Footer",
+      data(){
+          return{
+            copyright:"© 2019 FREWHITE all rights reserved"
+          }
+      }
+
     }
 </script>
 

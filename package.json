@@ -20,6 +20,7 @@
     "popper.js": "^1.16.1",
     "vue": "^2.5.2",
     "vue-fullpage.js": "^0.1.5",
+    "vue-i18n": "^8.17.6",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

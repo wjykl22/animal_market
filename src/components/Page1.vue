@@ -1,5 +1,7 @@
 <template>
-<div class="page">1</div>
+<div class="page">
+  <span>1</span>
+</div>
 </template>
 
 <script>
@@ -15,8 +17,8 @@
       height: 50px;
       text-align: center;
       line-height: 50px;
-      position:fixed;
-      right: 85%;
+      position: absolute;
+      left: 5%;
       top: 70%;
       border-top:2px solid #000000;
       font-size: 25px;
@@ -29,8 +31,8 @@
       height: 50px;
       text-align: center;
       line-height: 50px;
-      position:fixed;
-      right: 89%;
+      position: absolute;
+      left: 5%;
       top: 70%;
       border-top:2px solid #000000;
       font-size: 25px;
@@ -43,8 +45,8 @@
       height: 50px;
       text-align: center;
       line-height: 50px;
-      position:fixed;
-      right: 83%;
+      position: absolute;
+      left: 5%;
       top: 70%;
       border-top:2px solid #000000;
       font-size: 25px;
@@ -57,11 +59,12 @@
       height: 50px;
       text-align: center;
       line-height: 50px;
-      position:fixed;
-      right: 90%;
+      position: absolute;
+      left: 4%;
       top: 70%;
-      border-top:2px solid #000000;
+      border-top:2px solid #FFFFFF;
       font-size: 25px;
+      color: #FFFFFF;
       font-weight: bolder;
     }
   }
