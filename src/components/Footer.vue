@@ -25,6 +25,11 @@
             </ul>
 
           </div>
+          <div>
+            <ul>
+              <li>浙ICP备18041831号-1</li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
@@ -53,6 +58,11 @@
                 <li>C 2019 FREWHITE all rights reserved</li>
               </ul>
             </div>
+            <div>
+              <ul>
+                <li>浙ICP备18041831号-1</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -77,6 +87,7 @@
   @media (min-width: 768px){
     ul{
       list-style: none;
+      margin-bottom: 5px;
     }
     ul li{
       display: inline-block;
@@ -116,7 +127,7 @@
       margin: 5px
     }
     #div-icon{
-      margin: 10px;
+      margin: 5px;
     }
     img{
       margin-left: 10px;
@@ -132,6 +143,7 @@
   @media (max-width: 767px){
     ul{
       list-style: none;
+      margin-bottom: 5px;
     }
     ul li{
       display: inline-block;
@@ -174,7 +186,7 @@
       margin: 5px
     }
     #div-icon-sm{
-      margin: 10px;
+      margin: 5px;
     }
     img{
       margin-left: 10px;
@@ -187,6 +199,4 @@
       font-size: 0;
     }
   }
-
-
 </style>

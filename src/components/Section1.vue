@@ -25,7 +25,7 @@
   @media (min-width: 1200px){
     .section{
       /* 加载背景图片 */
-      background-image: url(../assets/picture/cat.png);
+      background-image: url(../assets/picture/cat_1200.jpg);
       /* 背景图垂直、水平均居中 */
       background-position: 0px 0px;
       /* 背景图不平铺 */
