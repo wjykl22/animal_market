@@ -1,0 +1,43 @@
+<template>
+  <div>
+    <div class="menu-rest"></div>
+    <div class="title">
+      <img @click="goService" class="img-scale" src="../../assets/picture/service/service.png" alt="无法显示图片">
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "Title",
+    methods: {
+      goService(){
+        this.$router.push({path: '/service'})
+      }
+    }
+  }
+</script>
+
+<style scoped>
+  .img-scale{
+    cursor: pointer;
+  }
+  .menu-rest {
+    height: 180px;
+  }
+  img {
+    left: 20%;
+    position:absolute;
+  }
+
+  @media (max-width: 767px) {
+    .img-scale{
+      width: 20%;
+      height: auto;
+    }
+    .menu-rest {
+      height: 150px;
+    }
+  }
+
+</style>

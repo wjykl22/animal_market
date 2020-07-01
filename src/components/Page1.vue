@@ -19,7 +19,7 @@
       line-height: 50px;
       position: absolute;
       left: 5%;
-      top: 70%;
+      top: 70rem;
       border-top:2px solid #000000;
       font-size: 25px;
       font-weight: bolder;
@@ -47,7 +47,7 @@
       line-height: 50px;
       position: absolute;
       left: 5%;
-      top: 70%;
+      top: 70rem;
       border-top:2px solid #000000;
       font-size: 25px;
       font-weight: bolder;
@@ -60,11 +60,11 @@
       text-align: center;
       line-height: 50px;
       position: absolute;
-      left: 4%;
-      top: 70%;
-      border-top:2px solid #FFFFFF;
+      left: 3.5rem;
+      top: 53rem;
+      border-top:2px solid #000000;
       font-size: 25px;
-      color: #FFFFFF;
+      color: #000000;
       font-weight: bolder;
     }
   }

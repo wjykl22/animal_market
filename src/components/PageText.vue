@@ -9,7 +9,9 @@
 </script>
 
 <style scoped>
-
+.page-text{
+  font-weight: bold;
+}
   @media (min-width: 1200px){
     .page-text{
       height: 50px;
@@ -41,21 +43,22 @@
       line-height: 50px;
       position: absolute;
       left: 5%;
-      top: 50%;
-      font-size: 35px;
+      top: 50rem;
+      color: #1a1a1a;
+      font-size: 4rem;
       font-weight: lighter;
     }
   }
   @media (max-width: 767px){
     .page-text{
       height: 50px;
+      top: 38rem;
       text-align: center;
       line-height: 50px;
       position: absolute;
-      left: 4%;
-      color: ghostwhite;
-      font-size: 35px;
-      font-weight: lighter;
+      left: 3.5rem;
+      color: #ffffff;
+      font-size: 3rem;
     }
   }
 

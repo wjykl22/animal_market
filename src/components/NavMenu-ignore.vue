@@ -3,9 +3,9 @@
     <div id="define-header" class="navbar-header">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
+          <router-link to="/home" class="navbar-brand">
             <img alt="Brand" src="../assets/picture/test_icon.png">
-          </a>
+          </router-link>
         </div>
       </div>
       <ul class="nav nav-pills" id="menu">
